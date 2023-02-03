@@ -19,4 +19,4 @@ func resolve(input: String) -> Bool {
 }
 ```
 
-check resolution [here](https://github.com/PaoloProdossimoLopes/swift-coding-challenges-book/blob/main/SwiftCodingChallenges/SwiftCodingChallenges/Chanllenge02.swift).
+check resolution [here](https://github.com/PaoloProdossimoLopes/swift-coding-challenges-book/blob/2189a9a832821cad3ddbc1bbaa29dc32000ca69a/SwiftCodingChallenges/SwiftCodingChallenges/Chanllenge02.swift)
