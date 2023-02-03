@@ -1,21 +1,24 @@
-# Challenge 2: Is a string a palindrome?
+# Challenge 3: Do two strings contain the same characters?
 
 **Difificulty:** Easy
 
-Write a function that accepts a String as its only parameter, and returns true if the string
-reads the same when reversed, ignoring case.
+Write a function that accepts two String parameters, and returns true if they contain the
+same characters in any order taking into account letter case.
 
 ## Cases
-  - [x] The string “rotator” should return true
-  - [x] The string “Rats live on no evil star” should return true.
-  - [x] The string “Never odd or even” should return false; even though the letters are the same in reverse the spaces are in different places.
-  - [x] The string “Hello, world” should return false because it reads “dlrow ,olleH” backwards.
+  - [x] The strings “abca” and “abca” should return true.
+  - [x] The strings “abc” and “cba” should return true
+  - [x] The strings “ a1 b2 ” and “b1 a2” should return true.
+  - [x] The strings “abc” and “abca” should return false.
+  - [x] The strings “abc” and “abca” should return false.
+  - [x] The strings “abc” and “cbAa” should return false.
 
 ## Smart solution:
 ```swift
-func resolve(input: String) -> Bool {
-  let lowercased = input.lowercased()
-  return lowercased.reversed() == Array(lowercased)
+func resolve(string1: String, string2: String) -> Bool {
+  let array1 = Array(string1)
+  let array2 = Array(string2)
+  return array1.sorted() == array2.sorted()
 }
 ```
 
