@@ -16,6 +16,11 @@ func challenge5b(input: String, count: Character) -> Int {
     $1 == count ? $0 + 1 : $0
   }
 }
+
+func challenge5d(input: String, count: String) -> Int {
+  let modified = input.replacingOccurrences(of: count, with: "")
+  return input.count - modified.count
+}
 ```
 
 check resolution [here]().
