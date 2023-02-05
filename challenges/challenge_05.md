@@ -23,4 +23,4 @@ func challenge5d(input: String, count: String) -> Int {
 }
 ```
 
-check resolution [here]().
+check resolution [here](https://github.com/PaoloProdossimoLopes/swift-coding-challenges-book/blob/1def16becd24a8d590159c222436e0e391e4c454/SwiftCodingChallenges/SwiftCodingChallenges/Challege05.swift).
