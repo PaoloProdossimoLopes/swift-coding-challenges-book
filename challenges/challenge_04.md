@@ -19,4 +19,4 @@ extension String {
 }
 ```
 
-check resolution [here](https://github.com/PaoloProdossimoLopes/swift-coding-challenges-book/blob/1077960cc1063cc69f04856c232b807f85a05ef6/SwiftCodingChallenges/SwiftCodingChallenges/Challenge04.swift).
+check resolution [here](https://github.com/PaoloProdossimoLopes/swift-coding-challenges-book/blob/475f7a364e84e4c81c2edccaea6293cec92b228b/SwiftCodingChallenges/SwiftCodingChallenges/Challenge04.swift).
