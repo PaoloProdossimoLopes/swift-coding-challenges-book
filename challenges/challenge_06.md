@@ -9,4 +9,4 @@ Write a function that accepts a string as its input, and returns the same string
   - [x] The string “hello” should print “helo”
   - [x] The string “Mississippi” should print “Misp”
 
-check resolution [here]().
+check resolution [here](https://github.com/PaoloProdossimoLopes/swift-coding-challenges-book/blob/7cd7b19da50abfa62973098483a41a7215c69267/SwiftCodingChallenges/SwiftCodingChallenges/Challenge06.swift).
